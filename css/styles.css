@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    /*--right gutter fix--*/
+}
+
+
+.navbar {
+    background-color: white;   
+    list-style-type: none;
+}
+
+.navbar-brand
+{
+    position: relative;
+    width: 170px;
+    bottom: 28px;
+    left: -30px;
+    max-height: 70px; /* height of the navbar */
+}
+
+
+.nav-link{
+    color: white;
+    margin-top: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav a.active {
+    color: #e4002b;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    font-weight: bold;  }
+
+.nav-link:hover {
+    color: #e4002b;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.nav-link_menu{
+    padding: 0px 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.nav-link_menu:hover{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+ }
+
+ 
+.mini-bar {
+    background-color: #000000;
+    padding-bottom: 0.5em;
+    font-size: large;
+    padding-top: 0em;
+    /* top: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1; */
+}
+
+.masthead {
+    margin-top: 10px;
+    height: 72vh;
+    min-height: 500px;
+    background-image: url('../img/backgroundmain.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  .animation-reset {
+    --animate-duration: 0s;
+}
+
+@media (max-width:767px) {
+    .masthead h1 {
+      padding-top: 1em;
+      font-size: 50px;
+    }

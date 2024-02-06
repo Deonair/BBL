@@ -1,0 +1,36 @@
+@import "navbar.css";
+
+
+.btn-color {
+    color: #fff;
+    background-color: #e4002b;
+    border-color: #e4002b;
+}
+
+.btn-color:hover {
+    color: #fff;
+    background-color: #760819;
+    border-color: #750011;
+}
+
+.btn-color:focus,
+.btn-color.focus {
+    color: #fff;
+    background-color: #e4002b;
+    border-color: #e4002b;
+    box-shadow: #e4002b;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    margin-top: 100px;
+  }
+  
+footer a {
+      text-decoration: none;
+  }
+
+  
